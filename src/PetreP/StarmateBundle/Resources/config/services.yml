@@ -1,0 +1,7 @@
+parameters:
+#    starmate.example.class: PetreP\StarmateBundle\Example
+
+services:
+#    starmate.example:
+#        class: %starmate.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,4 @@
+starmate:
+    resource: "@StarmateBundle/Resources/config/routing.yml"
+    prefix:   /
+
