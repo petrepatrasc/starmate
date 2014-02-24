@@ -1,7 +1,11 @@
 parameters:
 #    starmate.example.class: PetreP\StarmateBundle\Example
+    ahgl.service.class: PetreP\StarmateBundle\Service\AhglService
 
 services:
 #    starmate.example:
 #        class: %starmate.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+
+    ahgl.service:
+        class: %ahgl.service.class%

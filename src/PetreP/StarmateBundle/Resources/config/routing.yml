@@ -1,3 +1,7 @@
-starmate_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: StarmateBundle:Default:index }
+home:
+    pattern:  /
+    defaults: { _controller: StarmateBundle:PlayerLookup:index }
+
+ahgl_team_lookup:
+    pattern: /team-lookup/ahgl
+    defaults: { _controller: StarmateBundle:TeamLookup:ahgl }
